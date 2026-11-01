@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
 
-    int i=1,even;
+    int i=2;
 do
 {
-    even=2*i;
-    printf("even = %d\n",even);
-i++;
+    
+    printf("even = %d\n",i);
+i+=2;
 }
-while(i<=25);
+while(i<=50);
 
 return 0;
 }
